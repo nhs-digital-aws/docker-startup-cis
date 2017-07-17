@@ -1,5 +1,5 @@
 FROM docker:1.10.3
-NHS Digital Delivery Centre, CIS Team. Email: HSCIC.DL-CIS@nhs.net
+MAINTAINER NHS Digital Delivery Centre, CIS Team. Email: HSCIC.DL-CIS@nhs.net
 
 RUN apk update && \
     apk upgrade && \
